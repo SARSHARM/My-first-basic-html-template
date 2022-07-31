@@ -1,0 +1,55 @@
+h1{
+    margin: 0;
+    padding: 300px;
+    color:rgb(50, 232, 217);
+    border: 3px;
+    text-align: center; 
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif
+
+
+    
+} 
+header{
+    padding:0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(thought-catalog-505eectW54k-unsplash.jpg);
+    background-position:center;
+    height:100vh;
+    width:210vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+   
+}
+ul{
+    float: right;
+    text-size-adjust: none;
+    margin:25px;
+}
+ul li{
+    display:inline-block;
+
+
+}
+ul li a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border:1px solid rgb(215, 215, 228);
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.main{
+ max-width: 1400px;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
